@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+#container {
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+span {
+    color: #55F991;
+}
+#subheading {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #D5D4D8;
+}
+
+#pass-el {
+    width: 191px;
+    height: 42px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: auto;
+    background-color: #10B981;
+}
+
+hr {
+    width: 446px;
+    color: #2F3E53;
+    align-self: center;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
