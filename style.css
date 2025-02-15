@@ -5,49 +5,71 @@
     height: 550px;
     background-color: #1F2937;
     margin: auto;
-    margin-top: 40px;
-    padding: auto;
+    padding-left: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #heading {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-family: "Karla", sans-serif;
     font-size: 40px;
+    letter-spacing: -2.5%;
     font-weight: 800;
+    line-height: 40px;
     color: #fff;
+    margin-bottom: -1.5em;
 }
 span {
     color: #55F991;
+    margin-top: 5em;
 }
 #subheading {
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
+    font-size: 20px;
     color: #D5D4D8;
+    margin-bottom: 1.5em;
+    border-bottom: #2F3E53;
 }
 
 #pass-el {
     width: 191px;
     height: 42px;
     margin-top: 20px;
+    border-radius: 8px;
+    border: none;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    padding: auto;
+    font-size: 16px;
+    padding: 9px 15px;
     background-color: #10B981;
+    color: #fff;
 }
 
 hr {
+    margin-top: 2em;
     width: 446px;
-    color: #2F3E53;
-    align-self: center;
+    margin-left: 0px;
+    border: 1px solid #2F3E53;
 }
 
 #output {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: flex;    
+    max-width: 446px;
+    justify-content: space-between;
 }
 
+.pass {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    border: 0 solid none;
+    background-color: #273549;
+    color: #55F991;
+    margin-top: 35px;
+    text-align: center;
+}
 
