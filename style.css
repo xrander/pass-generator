@@ -1,75 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
-#container {
-    width: 550px;
-    height: 550px;
-    background-color: #1F2937;
-    margin: auto;
-    padding-left: 52px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+* {
+    box-sizing: border-box;
 }
 
-#heading {
-    display: flex;
-    flex-direction: column;
+
+
+.container {
+        width: 40%;
+        height: 35%;
+        background-color: #1F2937;
+        margin: 2em auto;
+        padding: 2em;
+    }
+
+header {
     font-family: "Karla", sans-serif;
-    font-size: 40px;
-    letter-spacing: -2.5%;
-    font-weight: 800;
-    line-height: 40px;
+    font-size: 2.5rem;
+    font-weight: semibold;
+    line-height: 0.8;
     color: #fff;
-    margin-bottom: -1.5em;
 }
+
 span {
+    display: block;
     color: #55F991;
-    margin-top: 5em;
+    /* margin-top: .5em; */
 }
-#subheading {
+
+.subheading {
     font-family: "Inter", sans-serif;
     font-weight: 400px;
     font-size: 20px;
-    color: #D5D4D8;
-    margin-bottom: 1.5em;
+    color: #b6b2c2;
+    /* margin-bottom: 1.5em; */
     border-bottom: #2F3E53;
 }
 
 #pass-btn {
-    width: 191px;
-    height: 42px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 8px;
     border: none;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    padding: 9px 15px;
+    padding: 1em 2em;
     background-color: #10B981;
     color: #fff;
 }
 
 hr {
-    margin-top: 2em;
-    width: 446px;
-    margin-left: 0px;
-    border: 1px solid #2F3E53;
+    margin: 2em 0;
+    width: 90%;
+    border: 2px solid #2F3E53;
 }
 
 #output {
     display: flex;    
-    max-width: 446px;
+    width: 90%;
+    gap: 2em;
     justify-content: space-between;
+    align-content: space-between;
 }
 
 .pass {
-    width: 211px;
-    height: 39px;
+    /* width: 11vh; */
+    /* height: 39px; */
     border-radius: 6px;
-    border: 0 solid none;
     background-color: #273549;
     color: #55F991;
-    margin-top: 35px;
     text-align: center;
+    width: 45%;
+    padding: 1em 2em;
 }
+
 
